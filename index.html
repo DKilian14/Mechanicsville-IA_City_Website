@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mechanicsville, IA</title>
+  
+  <link rel="stylesheet" href="styles/index.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+</head>
+
+
+
+
+
+
+<body>
+
+
+    <div class="container-fluid p-0 ">
+
+        <header class="position-relative">
+            <div id="opacityLayer" class="position-absolute header-image h-100 w-100 z10"></div>
+            <div id="imageLayer" class="position-absolute bg-black h-100 w-100 z10 opacity-1" ></div>
+            <div id="textLayer" class="position-absolute  h-100 w-100 z20 text-accent d-flex justify-content-center align-items-center flex-column">
+                <h1 id='text' class=" text-black text-border">City of Mechanicsville</h1>
+                <div id='state' class="text-accent text-border-secondary h3">IOWA</div>
+            </div>    
+        </header>
+
+        <nav class="navbar navbar-expand-lg text-accent bg-black">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Menu</a>
+                <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-house-fill " viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+                            <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+                            </svg>
+                        Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+                                <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                                <path fill-rule="evenodd" d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"/>
+                                <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
+                            </svg>
+                        Officials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-file-earmark-text-fill" viewBox="0 0 16 16">
+                                <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM4.5 9a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM4 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 1 0-1h4a.5.5 0 0 1 0 1h-4z"/>
+                            </svg>
+                        Forms/Permits</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-briefcase-fill" viewBox="0 0 16 16">
+                                <path d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v1.384l7.614 2.03a1.5 1.5 0 0 0 .772 0L16 5.884V4.5A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5z"/>
+                                <path d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5V6.85L8.129 8.947a.5.5 0 0 1-.258 0L0 6.85v5.65z"/>
+                            </svg>
+                        Businesses</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-truck-front-fill" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M3.5 0A2.5 2.5 0 0 0 1 2.5v9c0 .818.393 1.544 1 2v2a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5V14h6v1.5a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-2c.607-.456 1-1.182 1-2v-9A2.5 2.5 0 0 0 12.5 0h-9ZM3 3a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v3.9c0 .625-.562 1.092-1.17.994C10.925 7.747 9.208 7.5 8 7.5c-1.208 0-2.925.247-3.83.394A1.008 1.008 0 0 1 3 6.9V3Zm1 9a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm8 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm-5-2a1 1 0 1 0 0 2h2a1 1 0 1 0 0-2H7Z"/>
+                            </svg>
+                        Moving In</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-book-fill" viewBox="0 0 16 16">
+                                <path d="M8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
+                            </svg>
+                        Zoning/Ordinances</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bank" viewBox="0 0 16 16">
+                                <path d="m8 0 6.61 3h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.38l.5 2a.498.498 0 0 1-.485.62H.5a.498.498 0 0 1-.485-.62l.5-2A.501.501 0 0 1 1 13V6H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 3h.89L8 0ZM3.777 3h8.447L8 1 3.777 3ZM2 6v7h1V6H2Zm2 0v7h2.5V6H4Zm3.5 0v7h1V6h-1Zm2 0v7H12V6H9.5ZM13 6v7h1V6h-1Zm2-1V4H1v1h14Zm-.39 9H1.39l-.25 1h13.72l-.25-1Z"/>
+                            </svg>    
+                        History/Landmarks</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+
+        <weather class="container-fluid p-0 bg-primary" >
+            <a class="weatherwidget-io"   href="https://forecast7.com/en/41d90n91d25/mechanicsville/?unit=us" data-label_1="Mechanicsville, IA" data-label_2="Weather" data-font="Roboto" data-icons="Climacons Animated" data-theme="original" data-basecolor="black" data-textcolor="#febc2f" data-cloudcolor="#E5E5E5" data-cloudfill="#444343" >Mechanicsville, IA Weather</a>
+        </weather>
+
+        <main class="container-fluid ">
+            <div class="row">
+                <div class=" col-4 col-md-3 col-lg-3 bg-black  ">
+                  <div class="bg-black  text-accent ">
+                    <!-- <h4 class="d-flex justify-content-center pb-3">City Hall</h4> -->
+                    <p class="h5 text-accent mt-5 mb-1">City Hall:</p>
+                    <p class="text-accent mb-0 ms-2">100 E 1st Street </p>
+                    <p class="text-accent ms-2 mb-3">Mechanicsville, Iowa 52306</p>
+                    <p class="h5 text-accent mt-2 mb-1">Email:</p>
+                    <p class="text-accent mb-3 ms-2">Mechanicsville@netins.net </p>
+                    <p class="h5 text-accent mt-2 mb-1">Phone:</p>
+                    <p class="text-accent mb-3 ms-2">(563)432-7756 </p>
+                    <p class="h5 text-accent mb-0 ">Fax:   </p>
+                    <p class="text-accent mb-3 ms-2">(563)432-7199</p>
+                    <p class="h5 text-accent mb-3 ">Directions:</p>
+                    <div class="map ">
+                        <iframe class="map w-100 h-100 border border-primary border-rounded-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.4341091059923!2d-91.25726158431777!3d41.90502577170736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87e47e2dd3c8417d%3A0x3556ff66da5555ed!2s100%20E%201st%20St%2C%20Mechanicsville%2C%20IA%2052306!5e0!3m2!1sen!2sus!4v1658696382694!5m2!1sen!2sus"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                  </div>
+                    
+                </div>
+                <div class="col-8 col-md-9">
+                    <div class="row ">
+                        <div class="col-md-9  bg-accent   ">
+                            <div class="h1">City Officials</div>
+                            <p class="h2 text-black ">Mayor</p>
+                            <p class="h5 ps-2">Andrew Oberbreckling</p>
+                            <p class="h2 text-black ">Council Members</p>
+                            <p class="h5 ps-2">Adam Paidar</p>
+                            <p class="h5 ps-2">Jen Lester</p>
+                            <p class="h5 ps-2">Amy Bishop</p>
+                            <p class="h5 ps-2">Denice Dochterman</p>
+                            <p class="h5 ps-2">Laura Yost</p>
+                            <p class="h2 text-black ">City Clerk Finance Officer	</p>
+                            <p class="h5 ps-2">Linda Coppess</p>
+                            <p class="h2 text-black ">Public Works Director</p>
+                            <p class="h5 ps-2">Ricky Scott</p>
+                            <p class="h2 text-black ">Police Chief</p>
+                            <p class="h5 ps-2">William Wagner</p>
+                            <p class="h2 text-black ">Fire Chief</p>
+                            <p class="h5 ps-2">Jacob Koch</p>
+                            <p class="h2 text-black ">Librarian</p>
+                            <p class="h5 ps-2">Meredith Dehmer</p>
+                            <p class="h2 text-black ">Ambulance Coordinator</p>
+                            <p class="h5 ps-2">Lonni Koch</p>
+                            <p class="h2 text-black ">City Attorney</p>
+                            <p class="h5 ps-2">Jeffrey Clark</p>
+                            
+        
+        
+        
+        
+                        </div>
+
+                        <div class="col-md-3 d-none d-md-block bg-black  ">
+                            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                                <div class="carousel-indicators">
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="assets/chalk.PNG" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="assets/park.PNG" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="assets/vintage.PNG" class="d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </main>
+
+        <footer>
+            <div class="container-fluid border-top border-dark">
+                <div class="row bg-accent">
+                    <div class="col-3 d-flexbox justify-content-center">
+                        <div class="h2">Careers</div>
+                        <p class="ms-3">Apply Today</p>
+                    </div>
+                    <div class="col-3 d-flexbox justify-content-center">
+                        <div class="h2">Hours</div>
+                        <p class="ms-3">Mon-Friday, 9-5pm</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+    </div>
+
+
+    <script>
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+    </script>
+
+</body>
+</html>
+
+
+
+<!-- <div class="calendar ">
+    <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FChicago&amp;src=cDh0ajdkNzBjNXE5bWhuMnZvZnBnYnNtc2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23009688&amp;color=%230B8043"  frameborder="0" scrolling="no"></iframe>
+</div> -->

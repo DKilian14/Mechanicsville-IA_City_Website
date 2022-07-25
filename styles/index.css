@@ -1,0 +1,185 @@
+header{
+    width:100%;
+    height:45vh;
+    background-color: pink;
+    overflow:hidden;
+}
+
+
+
+
+
+/* z-index */
+.z10{
+    z-index:10;
+}
+.z15{
+    z-index:15;
+}
+.z20{
+    z-index:20;
+}
+.z25{
+    z-index:25;
+}
+
+
+/* background colors */
+.bg-black{
+    background-color: #000000;
+}
+
+.bg-navy{
+    background-color: #14213D;
+}
+
+.bg-accent{
+    background-color: #FCA311;
+}
+
+.bg-lightGray{
+    background-color: #E5E5E5;
+}
+.bg-white{
+    background-color: #FFFFFF;
+}
+.bg-darkGray {
+    background-color: #444343;
+}
+
+.header-image{
+    background-image: url('../assets/mural.PNG');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* text colors  */
+
+
+.text-black{
+    color: black;
+}
+
+.text-navy{
+    color: #14213D;
+}
+
+.text-accent{
+    color: #FCA311 ;
+}
+
+.text-accent a{
+    color: #FCA311 ;
+}
+
+.text-accent a:hover{
+    color: #E5E5E5 ;
+}
+
+.text-lightGray{
+    color: #E5E5E5;
+}
+
+.text-white{
+    color: white;
+}
+
+
+
+
+ /* HEADER */
+#imageLayer{
+    opacity:.2;
+}
+ /* MECHANICSVILLE */
+.text-border {
+    text-shadow: -1px 0 #FCA311, 0 1px #FCA311, 1px 0 #FCA311, 0 -1px #FCA311;
+}
+h1 {
+    font-size: 7vw;
+}
+ /* Iowa */
+.text-border-secondary{
+    text-shadow: -2px 0 black,0 2px  black , 2px 0 black , 0 -2px black ;
+}
+#state {
+    font-size: 3vw;
+}
+
+.nav-item{
+    font-size:1.5vw;
+}
+
+
+/* MAIN */
+
+.main-image {
+    background-image: url('../assets/vintage.PNG');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity:.7;
+}
+ /* ^^^ WILL CREATE A BACKGROUND IMAGE FOR THE MAIN CONTENT AREA ^^^ */
+
+
+main p{
+    font-size:1.3vw
+}
+
+main .h5{
+    font-size: 2vw;
+}
+main .h4{
+    font-size: 3vw;
+}
+main .h3{
+    font-size: 3.3vw;
+}
+main .h2{
+    font-size: 3.5vw;
+}
+main .h1{
+    font-size: 5vw;
+}
+
+/* MAP */
+
+.map {
+    /* height:20px */
+}
+
+.map iframe {
+    border-radius:5px;
+}
+
+/* CALENDAR */
+
+.calendar iframe{
+    height:35vh;
+    width:35vh;
+    border:solid 5px #777;
+    background-color: #FCA311;
+}
+
+
+
+
+
+/* IMAGES ON FRONT PAGE */
+
+.carousel {
+    max-height: 200px;
+}
+
+
+
+
+
+/* FOOTER */
+
+.ass{
+    border-color: black;
+    /* border-top: #000000; */
+}
