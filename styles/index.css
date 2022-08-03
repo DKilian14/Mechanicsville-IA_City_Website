@@ -124,31 +124,22 @@ h1 {
  /* ^^^ WILL CREATE A BACKGROUND IMAGE FOR THE MAIN CONTENT AREA ^^^ */
 
 
-main p{
-    font-size:1.3vw
-}
 
-main .h5{
+main .h3{
     font-size: 2vw;
 }
 main .h4{
-    font-size: 3vw;
+    font-size: 1.4vw;
 }
-main .h3{
-    font-size: 3.3vw;
+
+main .h5{
+    font-size: 1vw;
 }
-main .h2{
-    font-size: 3.5vw;
-}
-main .h1{
-    font-size: 5vw;
-}
+
 
 /* MAP */
 
-.map {
-    /* height:20px */
-}
+
 
 .map iframe {
     border-radius:5px;
